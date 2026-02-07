@@ -1,0 +1,15 @@
+# Core ML libraries
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Image processing
+Pillow>=10.0.0
+numpy>=1.24.0
+
+# Optional: Web interface (not included in free version)
+# streamlit>=1.28.0
+# flask>=3.0.0
+# flask-cors>=4.0.0
+
+# Note: For production features with pre-trained model,
+# contact: ihteshamul.hayat@nu.edu.kz
