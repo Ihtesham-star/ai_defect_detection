@@ -1,498 +1,258 @@
-\# 🔍 AI-Powered Defect Detection System
+# 🔍 AI-Powered Defect Detection System
 
+**Production-ready AI for automated quality control in construction and manufacturing.**
 
-
-\*\*Production-ready AI for automated quality control in construction and manufacturing.\*\*
-
-
-
-!\[Python](https://img.shields.io/badge/Python-3.8+-blue)
-
-!\[PyTorch](https://img.shields.io/badge/PyTorch-2.0+-red)
-
-!\[License](https://img.shields.io/badge/License-MIT-green)
-
-!\[Status](https://img.shields.io/badge/Status-Production%20Ready-brightgreen)
-
-
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
+![PyTorch](https://img.shields.io/badge/PyTorch-2.0%2B-red)
+![License](https://img.shields.io/badge/License-MIT-green)
 
 ---
 
+## 🎯 What This Does
 
+Automatically detects defects in:
+- ✅ **Construction Materials** (concrete, surfaces) - **Production Ready**
+- 🧪 **Textiles & Fabrics** - **Beta**
 
-\## 🎯 Key Features
-
-
-
-\- ⚡ \*\*Ultra-Fast Processing\*\*: 17-37ms per image
-
-\- 🎯 \*\*High Accuracy\*\*: 95-100% confidence on validated data
-
-\- 🏗️ \*\*Multi-Domain\*\*: Construction materials + Textiles
-
-\- 🔄 \*\*Batch Processing\*\*: Analyze multiple images simultaneously
-
-\- 📊 \*\*Business Logic\*\*: Automated accept/reject decisions
-
-\- 🌐 \*\*Multiple Interfaces\*\*: Streamlit UI, REST API, CLI
-
-
+**Performance:**
+- **Speed:** 17-37ms per image
+- **Accuracy:** 98%+ on construction materials
+- **Throughput:** 100+ images per minute
 
 ---
 
+## 🚀 Quick Start
 
-
-\## 📊 Performance Metrics
-
-
-
-| Metric | Value |
-
-|--------|-------|
-
-| \*\*Processing Speed\*\* | 17-37ms per image |
-
-| \*\*Construction Accuracy\*\* | 98%+ (Production Ready) |
-
-| \*\*Textile Accuracy\*\* | 88-92% (Beta) |
-
-| \*\*Training Dataset\*\* | 70,000+ images |
-
-| \*\*Batch Capability\*\* | 100+ images/minute |
-
-
-
----
-
-
-
-\## 🏗️ Primary Use Case: Construction Materials
-
-
-
-\### ✅ Production Ready
-
-\- \*\*Concrete defect detection\*\*
-
-\- \*\*Surface crack identification\*\*
-
-\- \*\*Structural damage assessment\*\*
-
-\- \*\*Joint inspection\*\*
-
-\- \*\*Quality control automation\*\*
-
-
-
-\### Demo Results
-
-```
-
-Image Analysis Time: ~20ms
-
-Confidence: 95-100%
-
-Automated Decision: ACCEPT/REJECT
-
-Manual Review: Only when confidence < 80%
-
-```
-
-
-
----
-
-
-
-\## 🧵 Beta Feature: Textile Inspection
-
-
-
-\### ⚠️ Beta Status
-
-\- \*\*Fabric defect detection\*\*
-
-\- \*\*Best for clear, obvious defects\*\*
-
-\- \*\*May require manual review for complex patterns\*\*
-
-\- \*\*Active improvement roadmap\*\*
-
-
-
----
-
-
-
-\## 🚀 Quick Start
-
-
-
-\### Option 1: Basic Usage (Free - Open Source)
-
+### 1. Clone Repository
 ```bash
+git clone https://github.com/ihtesham-star/ai_defect_detection.git
+cd ai_defect_detection
+```
 
-\# Clone repository
-
-git clone https://github.com/YOUR\_USERNAME/ai-defect-detection.git
-
-cd ai-defect-detection
-
-
-
-\# Install dependencies
-
+### 2. Install Dependencies
+```bash
 pip install -r requirements.txt
-
-
-
-\# Run with your own trained model
-
-python basic\_inference.py --model your\_model.pth --image test.jpg
-
 ```
 
+### 3. Get Pre-trained Models
 
+**This repository contains the code architecture. To use the system, you need the trained model weights:**
 
-\*\*Note:\*\* This requires your own trained model. See \[Training Guide](docs/TRAINING.md) for details.
+**Option A - Free Trial:**
+- Email: ihteshamul.hayat@nu.edu.kz
+- Subject: "Request Free Trial Model"
+- Get access to sample model for testing
 
-
-
----
-
-
-
-\### Option 2: Production-Ready Solution (Paid)
-
-
-
-\*\*Don't want to train your own model? Get our pre-trained production model:\*\*
-
-
-
-\#### 💼 Pre-Trained Model
-
-\- ✅ Trained on 70,000+ images
-
-\- ✅ 98%+ accuracy on construction
-
-\- ✅ Ready to deploy
-
-\- ✅ Commercial license included
-
-
-
-\*\*Pricing:\*\*
-
-\- One-time: \*\*$299\*\*
-
-\- Monthly: \*\*$49/month\*\*
-
-
-
-\#### 🌐 Hosted Solution (No Setup Required)
-
-\- ✅ Web interface
-
-\- ✅ REST API access
-
-\- ✅ Automatic updates
-
-\- ✅ Technical support
-
-
-
-\*\*Pricing:\*\*
-
-\- Starter: \*\*$99/month\*\* (1,000 images)
-
-\- Professional: \*\*$299/month\*\* (10,000 images)
-
-\- Enterprise: \*\*Custom pricing\*\*
-
-
-
-\#### 🤝 Custom Solutions
-
-\- Custom model training: \*\*$5,000-10,000\*\*
-
-\- Integration consulting: \*\*$150/hour\*\*
-
-\- On-premise deployment: \*\*$3,000 setup\*\*
-
-
+**Option B - Full Production Model:**
+- Construction-grade model trained on 70,000+ images
+- See pricing below
 
 ---
 
-
-
-\## 📞 Get Production Version
-
-
-
-\*\*Ready to use the pre-trained model or hosted solution?\*\*
-
-
-
-📧 \*\*Email:\*\* ihteshamul.hayat@nu.edu.kz  
-
----
-
-
-
-\## 🛠️ Technical Architecture
-
-
-
-\### Model Architecture
-
-\- \*\*Base:\*\* Custom CNN (PyTorch)
-
-\- \*\*Input:\*\* 224x224 RGB images
-
-\- \*\*Output:\*\* Binary classification (Defective/Good)
-
-\- \*\*Features:\*\* Batch normalization, dropout, adaptive pooling
-
-
-
-\### System Components
-
-\- \*\*Backend:\*\* Python, PyTorch, Flask
-
-\- \*\*Frontend:\*\* Streamlit
-
-\- \*\*API:\*\* RESTful with JSON responses
-
-\- \*\*Deployment:\*\* Docker-ready
-
-
-
----
-
-
-
-\## 📖 Documentation
-
-
-
-\- \[Training Guide](docs/TRAINING.md) - How to train your own model
-
-\- \[API Documentation](docs/API.md) - REST API reference
-
-\- \[Deployment Guide](docs/DEPLOYMENT.md) - Production deployment
-
-\- \[Business Logic](docs/BUSINESS\_LOGIC.md) - Decision thresholds
-
-
-
----
-
-
-
-\## 🎓 Training Your Own Model
-
-
-
-\*\*Want to train with your own data?\*\*
-
-
-
-\### Requirements
-
-\- \*\*Dataset:\*\* 10,000+ labeled images (minimum)
-
-\- \*\*Hardware:\*\* GPU with 8GB+ VRAM
-
-\- \*\*Time:\*\* 3-7 days of training
-
-\- \*\*Storage:\*\* 500GB+ for dataset
-
-
-
-\### Quick Training
-
-```bash
-
-python train.py --data your\_dataset/ --epochs 50 --batch-size 32
-
+## 📁 Project Structure
+```
+ai_defect_detection/
+├── basic_inference.py      # Open-source inference code
+├── production_system.py    # Production system (requires trained model)
+├── requirements.txt        # Python dependencies
+├── docs/
+│   └── TRAINING.md        # Guide for training your own model
+├── assets/                # Demo screenshots
+└── README.md             # You are here
 ```
 
+---
 
+## 💡 How It Works
 
-See \[detailed training guide](docs/TRAINING.md) for full instructions.
+### Architecture
+- **Model:** Custom CNN with batch normalization
+- **Input:** 224×224 RGB images
+- **Output:** Binary classification (Defective/Good) + confidence score
+- **Framework:** PyTorch 2.0+
 
+### Usage Example
+```python
+from basic_inference import DefectDetector
 
+# Initialize (requires trained model)
+detector = DefectDetector('path/to/model.pth')
 
-\*\*Or save weeks of work:\*\* Get our pre-trained model → \[Contact us](mailto:your.email@example.com)
+# Single image
+result = detector.predict('image.jpg')
+print(f"Status: {result['prediction']}")
+print(f"Confidence: {result['confidence']:.2%}")
 
-
+# Batch processing
+results = detector.predict_batch(['img1.jpg', 'img2.jpg', 'img3.jpg'])
+```
 
 ---
 
+## 📊 What You Get
 
+### ✅ Open Source (Free)
+- Model architecture code
+- Training documentation
+- Basic inference scripts
+- MIT License
 
-\## 🗺️ Roadmap
-
-
-
-\### Version 1.0 (Current)
-
-\- ✅ Construction defect detection (Production)
-
-\- ✅ Basic textile detection (Beta)
-
-\- ✅ Streamlit interface
-
-\- ✅ REST API
-
-\- ✅ Batch processing
-
-
-
-\### Version 2.0 (Planned - Q2 2025)
-
-\- 🔄 Enhanced textile model (95%+ accuracy)
-
-\- 🔄 Pattern recognition improvements
-
-\- 🔄 Real-time video processing
-
-\- 🔄 Multi-language support
-
-\- 🔄 Mobile app
-
-
+### 💼 Production Model (Paid)
+- Pre-trained weights (70,000+ images)
+- Web interface (Streamlit + Flask API)
+- Batch processing
+- Priority support
 
 ---
 
+## 💰 Pricing
 
+| Tier | Price | What's Included |
+|------|-------|-----------------|
+| **DIY** | Free | Code only, train your own model |
+| **Pre-trained Model** | $299 one-time OR $49/month | Trained model weights + basic support |
+| **Hosted Solution** | $99-299/month | SaaS platform, API access, updates |
+| **Enterprise** | Custom | Custom training, integration, SLA |
 
-\## ⚖️ License
-
-
-
-\*\*Free Version:\*\* MIT License (open source)  
-
-\*\*Pre-trained Model:\*\* Commercial license required  
-
-\*\*Production Features:\*\* Proprietary  
-
-
+**🎁 Special Offer:** First 10 customers get 50% off!
 
 ---
 
+## 🎯 Use Cases
 
+### Construction ✅ Production Ready
+- Concrete surface inspection
+- Crack detection
+- Material quality control
+- Pre-pour verification
 
-\## 🤝 Contributing
-
-
-
-We welcome contributions! See \[CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
-
-
-
----
-
-
-
-\## 📈 Use Cases
-
-
-
-\### Construction
-
-\- Pre-cast concrete inspection
-
-\- On-site quality control
-
-\- Structural assessment
-
-\- Material acceptance testing
-
-
-
-\### Manufacturing
-
-\- Textile quality control
-
-\- Surface inspection
-
-\- Production line automation
-
-\- Final product verification
-
-
+### Textiles 🧪 Beta
+- Fabric defect detection
+- Weaving errors
+- Color inconsistencies
+- Quality grading
 
 ---
 
+## 📈 Performance
 
+| Domain | Accuracy | Speed | Status |
+|--------|----------|-------|--------|
+| Construction | 98-100% | 20ms | ✅ Production |
+| Textiles | 90-95% | 25ms | 🧪 Beta |
 
-\## 🌟 Why Choose This System?
-
-
-
-| Feature | This System | Traditional Methods |
-
-|---------|-------------|---------------------|
-
-| Speed | 20ms/image | 2-5 minutes/image |
-
-| Consistency | 98%+ accuracy | 70-85% (human) |
-
-| Cost | $99-299/month | $50K+/year (staff) |
-
-| Scalability | Unlimited | Limited by staff |
-
-| Availability | 24/7 | Business hours |
-
-
+**Training Dataset:**
+- 70,000+ labeled images
+- Multiple defect types
+- Real-world conditions
+- Balanced classes
 
 ---
 
+## 🛠️ Technical Requirements
+```
+Python 3.8+
+PyTorch 2.0+
+torchvision
+Pillow
+NumPy
+```
 
-
-\## 📸 Screenshots
-
-
-
-\### Batch Processing
-
-!\[Batch Processing](assets/batch-demo.gif)
-
-
-
-\### Real-time Analysis
-
-!\[Analysis](assets/single-demo.png)
-
-
+**Optional (for production system):**
+```
+Flask
+Streamlit
+pandas
+```
 
 ---
 
+## 📖 Documentation
 
-
-\## 💡 Get Started Today
-
-
-
-1\. \*\*Try Free:\*\* Clone repo and test with your own model
-
-2\. \*\*Go Production:\*\* Get pre-trained model or hosted solution
-
-3\. \*\*Custom Needs:\*\* Contact us for enterprise solutions
-
-
-
-\*\*Questions?\*\* Open an issue or email: your.email@example.com
-
-
+- **[Training Guide](docs/TRAINING.md)** - How to train your own model
+- **API Documentation** - Coming soon
+- **Integration Examples** - Coming soon
 
 ---
 
+## 🤝 Get Started
 
+**Interested in using this for your business?**
 
-\*\*Built with ❤️ by \[Your Name]\*\*  
+1. **Free Consultation:** Email me to discuss your use case
+2. **Free Trial:** Test on your sample images
+3. **Pilot Program:** 30-day money-back guarantee
 
-\*\*Powered by PyTorch • Deployed with Streamlit • Production-Ready\*\*
+**Contact:**
+- Email: ihteshamul.hayat@nu.edu.kz
+- GitHub Issues: For technical questions
 
+---
+
+## ⚠️ Important Notes
+
+### Construction Materials ✅
+- Fully validated and production-ready
+- 98%+ accuracy on unseen data
+- Recommended for automated decision-making
+
+### Textiles 🧪
+- Beta quality - suitable for assisted inspection
+- Requires human review for critical decisions
+- Continuous improvement in progress
+
+---
+
+## 📄 License
+
+MIT License - See [LICENSE](LICENSE) file
+
+**Commercial Use:** Allowed with proper attribution
+
+---
+
+## 🙏 Credits
+
+Developed by **Sham** (Research Assistant, CEMRR, Nazarbayev University)
+
+Trained on curated datasets from:
+- Construction quality control archives
+- Textile manufacturing facilities
+- Public defect detection benchmarks
+
+---
+
+## 🔮 Roadmap
+
+- [ ] Mobile app (iOS/Android)
+- [ ] Real-time video processing
+- [ ] Additional material types
+- [ ] Cloud API deployment
+- [ ] Multi-language support
+
+---
+
+## ❓ FAQ
+
+**Q: Can I train my own model?**  
+A: Yes! See [docs/TRAINING.md](docs/TRAINING.md) for instructions.
+
+**Q: Do I need GPU?**  
+A: For inference: No. CPU works fine (20-40ms).  
+For training: Yes, GPU recommended.
+
+**Q: What image formats are supported?**  
+A: JPG, PNG, BMP, TIFF
+
+**Q: Can I use this commercially?**  
+A: Yes, with paid license or by training your own model.
+
+---
+
+**⭐ If you find this useful, please star the repository!**
+
+**🐛 Found a bug? [Open an issue](https://github.com/ihtesham-star/ai_defect_detection/issues)**
+
+---
+
+*Last updated: February 2026*
